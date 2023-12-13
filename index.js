@@ -110,6 +110,33 @@
 // let arr = [
 //     {
 //         name:"John",
+//         age:45
+//     },
+//     {
+//         name:"Adam",
+//         age:15
+//     },
+//     {
+//         name:"Doe",
+//         age:60
+//     },
+//     {
+//         name:"Alex",
+//         age:80
+//     },
+// ]
+// let sum = 0;
+ 
+// for (let i = 0;i < arr.length; i++){
+//     sum = sum + arr[i].age / 4
+//   }
+// console.log(sum);
+
+
+// 4 - masala
+// let arr = [
+//     {
+//         name:"John",
 //         age:34
 //     },
 //     {
@@ -125,19 +152,15 @@
 //         age:76
 //     },
 // ]
-// let sum = 0;
-// let res = [];
- 
+// let res = 0;
 // for (let i = 0;i < arr.length; i++){
-//     sum = sum + arr[i].age / 2
-//     if (sum > arr[i].age) {
-//         res=(arr[i].age)
-//     }
+    
 //   }
 // console.log(res);
 
 
-// 4 - masala
+
+// 5 - masala
 // let arr = [
 //     {
 //         name:"John",
@@ -167,3 +190,17 @@
 //   }
 // console.log(res);
 
+
+
+// 6 - masala
+
+// let arr = [1,2,3,4,5,6]
+
+// let res = arr.map((value) =>{
+//     if (value % 2 == 1) {
+//         return value ** 2
+//     }else{
+//         return value ** 3
+//     }
+// });
+// console.log(res);
